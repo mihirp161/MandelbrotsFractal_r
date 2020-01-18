@@ -8,7 +8,7 @@ color <- c(tokyo)
 mandelbrot <<- function(i,j){
   
   bound <- 1 #flag/swtich if number has escaped the M-Set
-  x <- i-460 
+  x <- i-460 # constant c added to x and y
   y <- 240-j 
   
   # A 2d complaix plain
@@ -29,10 +29,15 @@ mandelbrot <<- function(i,j){
   return(list(flag= bound, c= color)) #return the bound with associated color
 }
 
-png(filename="mandelbrot_bad.png", bg= "black",height = 600, width = 600, units = "px") 
+png(filename="mandelbrot_bad.png", bg= "white",height = 600, width = 600, units = "px") 
 
 #plot attributes
-plot(c(50, 600), c(0,500), type = 'l', xaxt='n',yaxt='n', ann=FALSE)
+plot(c(50, 600), c(50,500), type = 'l', col.axis= "blue", xlab= "", ylab = "")
+title(main = "The Mandelbrot Set", sub = "Input form c(A, Bi)",
+      xlab = "X-axis c(50,600)", ylab = "Y-axis (50,500)",
+      cex.main = 2,   font.main= 4, col.main= "red",
+      cex.sub = 0.75, font.sub = 3, col.sub = "green",
+      col.lab ="darkblue")
 
 # iterations for x and y
 for(i in 1:2020){ 
