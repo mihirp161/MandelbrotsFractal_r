@@ -8,11 +8,11 @@ color <- c(lajolla)
 mandelbrot <<- function(i,j){
   
   bound <- 1 #flag/swtich
-  x <- i-460 #
-  y <- 240-j
+  x <- i-460 # curves
+  y <- 240-j # cracks
 
   a <- complex(real = x/200, imaginary = y/200) #real numbers
-  b <- complex(real=0, imaginary = 0) #imaginary numbers
+  b <- complex(real = 0, imaginary = 0) #imaginary numbers
 
   for(k in seq(length(color))){
     # I am doing with a b^2+ba sequence to make fracatl rings
@@ -38,7 +38,7 @@ for(i in 1:1920){
     f_x= mandelbrot(i,j) 
     
     if(f_x$flag){ #if false, do nothing
-      points(i,j,pch=46) #line graph
+      points(i,j,pch=46) #line graph without a color brew
     }
     else{
       points(i,j,pch=46,col=color[f_x$c]) #color line if flag is True
