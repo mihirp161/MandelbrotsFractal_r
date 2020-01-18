@@ -29,13 +29,13 @@ mandelbrot <<- function(i,j){
   return(list(flag= bound, c= color)) #return the bound with associated color
 }
 
-png(filename="mandelbrot_bad.png", bg= "white",height = 600, width = 600, units = "px") 
+png(filename="mandelbrot_bad.png", bg= "lavender",height = 600, width = 600, units = "px") 
 
 #plot attributes
 plot(c(50, 600), c(50,500), type = 'l', col.axis= "blue", xlab= "", ylab = "")
-title(main = "The Mandelbrot Set", sub = "Input form c(A, Bi)",
+title(sub = "Input form c(A, Bi)",
       xlab = "X-axis c(50,600)", ylab = "Y-axis (50,500)",
-      cex.main = 2,   font.main= 4, col.main= "red",
+      cex.main = 2, font.main= 4, col.main= "red",
       cex.sub = 0.75, font.sub = 3, col.sub = "green",
       col.lab ="darkblue")
 
