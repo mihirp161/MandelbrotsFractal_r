@@ -18,6 +18,6 @@ Author
 ------
 Mihir Patel
 
-Source
+Reading Source
 ------
 "Mandelbrot Set" (http://mathworld.wolfram.com/MandelbrotSet.html)
