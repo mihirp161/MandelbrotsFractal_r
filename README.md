@@ -4,7 +4,7 @@ A fractal of Mendelbrot
 
 Project Discription
 --------------------
-Just wanted to make a quick fractal image for a 404 result with mid-iterations without doing funky trignometry.   
+Just wanted to make a quick fractal image with mid-iterations without doing any funky trignometry or using any advance R package.   
 
 Langauge
 ---------
