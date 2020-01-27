@@ -29,19 +29,18 @@ mandelbrot <<- function(i,j){
   return(list(flag= bound, c= color)) #return the bound with associated color
 }
 
-png(filename="mandelbrot_bad.png", bg= "lavender",height = 600, width = 600, units = "px") 
+png(filename="mandelbrot_bad.png", bg= "lavender",height = 600, width = 600, units = "px", res= 80) 
 
 #plot attributes
-plot(c(50, 600), c(50,500), type = 'l', col.axis= "blue", xlab= "", ylab = "")
+plot(c(50, 600), c(50,500), type = 'l', col.axis= "hotpink4", xlab= "", ylab = "")
 title(sub = "Input form c(A, Bi)",
-      xlab = "X-axis c(50,600)", ylab = "Y-axis (50,500)",
-      cex.main = 2, font.main= 4, col.main= "red",
-      cex.sub = 0.75, font.sub = 3, col.sub = "green",
+      xlab = "Real Axis", ylab = "Imginary Axis",
+      cex.sub = 0.75, font.sub = 3, col.sub = "hotpink4",
       col.lab ="darkblue")
 
 # iterations for x and y
-for(i in 1:2020){ 
-  for(j in 1:2019){
+for(i in 1:1000){ 
+  for(j in 1:1000){
     f_x= mandelbrot(i,j) 
     
     if(f_x$flag){ 
