@@ -34,7 +34,7 @@ png(filename="mandelbrot_bad.png", bg= "lavender",height = 600, width = 600, uni
 #plot attributes
 plot(c(50, 600), c(50,500), type = 'l', col.axis= "hotpink4", xlab= "", ylab = "")
 title(sub = "Input form c(A, Bi)",
-      xlab = "Real Axis", ylab = "Imginary Axis",
+      xlab = "Real Axis", ylab = "Imaginary Axis",
       cex.sub = 0.75, font.sub = 3, col.sub = "hotpink4",
       col.lab ="darkblue")
 
