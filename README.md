@@ -20,4 +20,4 @@ Mihir Patel
 
 Reading Source
 ------
-"Mandelbrot Set" (https://en.wikipedia.org/wiki/Mandelbrot_set)
+[the Mandelbrot Set](https://en.wikipedia.org/wiki/Mandelbrot_set)
