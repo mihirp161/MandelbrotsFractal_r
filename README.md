@@ -1,6 +1,6 @@
 Project
 --------
-A fractal of Mendelbrot
+ A Mendelbrot Set Fractal
 
 Project Discription
 --------------------
