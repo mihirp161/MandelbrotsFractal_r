@@ -1,7 +1,7 @@
 options(warn=-1) #Suppress the warning coming from the color pacakge
 library(scico)
 
-tokyo <- scico::scico(250, palette= 'tokyo') #picked a color scheme
+tokyo <- scico::scico(250, palette= 'grayC') #picked a color scheme
 color <- c(tokyo)
 
 # A fractal function
