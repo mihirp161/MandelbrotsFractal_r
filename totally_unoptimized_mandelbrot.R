@@ -36,7 +36,7 @@ plot(c(50, 600), c(50,500), type = 'l', col.axis= "hotpink4", xlab= "", ylab = "
 title(sub = "Input form c(A, Bi)",
       xlab = "Real Axis", ylab = "Imaginary Axis",
       cex.sub = 0.75, font.sub = 3, col.sub = "hotpink4",
-      col.lab ="darkblue")
+      col.lab ="darkblue", main= "the Mandelbrot Set", col.main= "palevioletred4")
 
 # iterations for x and y
 for(i in 1:1000){ 
