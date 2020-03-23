@@ -18,6 +18,11 @@ Author
 ------
 Mihir Patel
 
+blog
+-----
+[Read my blog here!](https://opendatasurgeon.github.io/mandelbrot/)
+
+
 Reading Source
 ------
 [the Mandelbrot Set](https://en.wikipedia.org/wiki/Mandelbrot_set)
