@@ -20,7 +20,7 @@ Mihir Patel
 
 blog
 -----
-[Read my blog here!](https://opendatasurgeon.github.io/mandelbrot/)
+[Read my blog here!](https://mihirp161.github.io/mandelbrot/)
 
 
 Reading Source
